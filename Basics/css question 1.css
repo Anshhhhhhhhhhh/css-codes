@@ -1,0 +1,17 @@
+h1{
+    color: orange;
+}
+
+p{
+    background-color: black;
+    color: aliceblue;
+}
+
+button{
+    background-color: blue;
+    color: aliceblue;
+}
+
+h1::selection{
+    background-color: green;
+}

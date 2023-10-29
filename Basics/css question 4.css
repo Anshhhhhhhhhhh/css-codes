@@ -1,0 +1,44 @@
+*{
+    text-align: center;
+}
+body{
+  cursor: url("cursor.png"),auto;
+}
+h1::selection{
+  background-color: pink;
+}
+#mainTopic{
+    color: blue;
+}
+
+h1,
+ h3,
+  h5{
+    font-family: Georgia;
+}
+
+.paragraph{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.paragraph:nth-child(2n-1){
+    color: yellow;
+}
+button{
+    color: azure;
+    background-color: purple;
+}
+
+button:hover{
+  color: blue;
+  background-color: yellowgreen;
+}
+
+h1::first-letter{
+  color: red;
+}
+
+#yes:checked + label{
+  color: darkgreen;
+}

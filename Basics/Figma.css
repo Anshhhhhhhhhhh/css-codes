@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+header{
+    position: static;
+    margin-top: 0px;
+    padding: 12px 32px;
+    background-color: white;
+    font-weight: 600;
+    display: block;
+}
+
+.theyhide .hidethem{
+    display: none;
+    margin: 10px;
+    border: solid #000;
+}
+
+li{
+    margin: 10px;
+    width: 150px;
+}
+
+.theyhide{
+    list-style: none;
+    display: inline-block;
+}
+
+.theyhide:hover .hidethem{
+   position: fixed;
+   display:block;
+}
+
+a{
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 600;
+    transition: 1s underline ease-in-out 0.2s;
+}
+
+a:hover{
+    text-decoration: underline 3px black;
+}
+
+
+
+li{
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    font-size:21px;
+}
+
+
+
+button{
+    padding: 15px 20px 15px 20px;
+    font-size: 23px;
+    background-color: #5551FF;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 7px; 
+    position: absolute;
+    margin-top : 14px;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    margin-top: 11px;
+}
+
+svg{
+    position: relative;
+    bottom: 2px;
+    height: 67px;
+    width: 67px;
+}
+
+
+
